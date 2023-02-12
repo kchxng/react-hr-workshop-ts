@@ -4,6 +4,10 @@ npm i -g create-react-app
 create-react-app [my-app] --template typescript
 npx create-react-app [my-app] --template typescript (create poject by last version)
 
+######Config auto save and format code#####
+1. go setting and search as: [setting] then open file by click [Edit a setting.json]
+2. adjust: "editor.formaterOnsave:true"
+
 ######## Development & Production #########
 - create a 2 files as bellow:
 1) [.env.development] (If we run it by 'yarn start' or 'npm start', a app will use development mode)
@@ -13,17 +17,44 @@ npx create-react-app [my-app] --template typescript (create poject by last versi
 #####Design Button Grident#######
 https://mui.com/system/styles/basics/
 
-### install package
-npm i @emotion/react @emotion/styled
-npm i @mui/icons-material @mui/material @mui/x-data-grid chart.js react-chartjs-2 
+### install package-------
+1------MUI------
+yarn add @mui/material @emotion/react @emotion/styled
+yarn add @mui/material @mui/styled-engine-sc styled-components
+yarn add @mui/icons-material
+
+2------Router------
+yarn add react-router-dom @types/react-router-dom
+
+3-------Generate Page------
+yarn add create-react-component-folder
+Ex: npx crcf -f --notest --typescript LoginPage RegisterPage (create folder as pages)
+
+4------Manage HTTP client-------
+yarn add axios
+5------Join all arguments URL------
+yarn add @types/url-join url-join
+
+6------Formik--------
+yarn add formik formik-material-ui yup
+
+7-----format number and date style------
+yarn add moment react-moment react-number-format
+
+8-----Redux------
+react-redux redux @reduxjs/toolkit react-redux @types/redux-logger redux-logger
+
+9-----JWT------
+yarn add @types/jsonwebtoken jsonwebtoken
+----------------------------------------------
+
+npm i @mui/x-data-grid chart.js react-chartjs-2 
 npm i @react-hook/debounce
-npm i react-router-dom @types/react-router-dom
-npm i axios 
-npm i formik formik-material-ui yup react-hook-form @hookform/resolvers
-npm i moment react-moment url-join react-number-format
-npm i @types/redux-logger react-redux redux redux-logger redux-thunk url-join @types/url-join react-iframe
---change redux-thunk to redux-toolkit
-ືnpm i @reduxjs/toolkit react-redux redux-logger
+
+
+npm i react-hook-form @hookform/resolvers
+
+npm i react-iframe
 yarn add @mui/x-data-grid react-moment recharts @mui/x-data-grid-generator
 yarn add @mui/styles
 ----barcode scanner
@@ -57,8 +88,7 @@ yarn remove <package...>
 
 ###Page components
 cd src/components/pages
-yarn add global create-react-component-folder
-npx crcf -f --notest --typescript LoginPage RegisterPage (create folder as pages)
+
 
 ### start project
 npm start
