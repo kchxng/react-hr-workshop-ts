@@ -8,6 +8,7 @@ import {
 import { Colors } from "../../../../styles/theme";
 
 type Props = { matches: any };
+
 const Actions = ({ matches }: Props) => {
   const menuList = [
     { code: 101, name: "", icon: "", path: "" },
@@ -15,7 +16,7 @@ const Actions = ({ matches }: Props) => {
     { code: 103, name: "login", icon: "", path: "" },
   ];
 
-  const Component: any = matches
+  const Component = matches
     ? ActionIconContainerMobile
     : ActionIconContainerDesktop;
   return (

@@ -4,6 +4,10 @@ npm i -g create-react-app
 create-react-app [my-app] --template typescript
 npx create-react-app [my-app] --template typescript (create poject by last version)
 
+#####Website for radom image online#####
+https://robohash.org
+Ex: https://robohash.org/john
+
 ######Config auto save and format code#####
 1. go setting and search as: [setting] then open file by click [Edit a setting.json]
 2. adjust: "editor.formaterOnsave:true"
@@ -22,6 +26,8 @@ https://mui.com/system/styles/basics/
 yarn add @mui/material @emotion/react @emotion/styled
 yarn add @mui/material @mui/styled-engine-sc styled-components
 yarn add @mui/icons-material
+
+yarn add polished (Need a consistent color palette)
 
 2------Router------
 yarn add react-router-dom @types/react-router-dom
@@ -46,6 +52,7 @@ react-redux redux @reduxjs/toolkit react-redux @types/redux-logger redux-logger
 
 9-----JWT------
 yarn add @types/jsonwebtoken jsonwebtoken
+
 ----------------------------------------------
 
 npm i @mui/x-data-grid chart.js react-chartjs-2 

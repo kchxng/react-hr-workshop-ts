@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
+import AdminContentPage from "./components/layouts/admin/AdminContent/AdminContentPage";
+import AdminDefaultPage from "./components/layouts/admin/AdminDefault/AdminDefaultPage";
 import ContentPage from "./components/layouts/user/ContentPage";
 import DefaultPage from "./components/layouts/user/DefaultPage";
 import AboutPage from "./components/pages/userPage/AboutPage";
@@ -20,6 +22,9 @@ const App = (props: Props) => {
           <Route path="login" element={<LoginPage />} />
           <Route path="register" element={<RegisterPage />} />
           <Route path="about" element={<AboutPage />} />
+        </Route>
+        <Route path="admin-dashboard" element={<AdminContentPage />}>
+          <Route path="" element={<AdminDefaultPage />} />
         </Route>
       </Routes>
     </>
