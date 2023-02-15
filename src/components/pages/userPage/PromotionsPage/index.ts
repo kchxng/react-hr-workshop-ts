@@ -1,5 +1,5 @@
 import { Box, styled, Typography } from "@mui/material";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 
 export { default } from "./PromotionsPage";
 

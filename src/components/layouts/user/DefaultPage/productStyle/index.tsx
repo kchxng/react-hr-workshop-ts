@@ -1,6 +1,6 @@
 import { Box, Button, IconButton, styled } from "@mui/material";
 import { slideInBottom, slideInRight } from "../../../../../styles/animation";
-import { Colors } from "../../../../../styles/theme";
+import { Colors } from "../../../../../styles/theme/UserTheme";
 
 // Product Item
 type productProps = {

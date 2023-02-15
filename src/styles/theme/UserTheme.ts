@@ -2,6 +2,7 @@ import { createTheme } from "@mui/material/styles";
 import { darken, lighten } from "polished";
 
 export const DrawerWidth = 250;
+// For public or user
 export const Colors = {
   primary: "#5f2c3e",
   secondary: "#d1adcc",
@@ -28,6 +29,7 @@ export const Colors = {
   white: "#fff",
   black: "#000",
 };
+
 
 type MyShopButtonProps = {
   MyShopButton: {

@@ -5,7 +5,7 @@ import {
   ActionIconContainerMobile,
   MyList,
 } from "./style";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 
 type Props = { matches: any };
 

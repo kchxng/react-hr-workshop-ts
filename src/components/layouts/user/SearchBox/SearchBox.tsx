@@ -4,7 +4,7 @@ import { styled, Box } from "@mui/system";
 
 import React from "react";
 import { useUIContext } from "../../../../styles/contextUI";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 
 const SearchBoxContainer = styled(Box)(({ theme }) => ({
   position: "absolute",

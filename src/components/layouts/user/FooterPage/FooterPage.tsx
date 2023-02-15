@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import * as React from "react";
 import { FooterTitle, SubscribeIf } from ".";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 
 type FooterPageProps = {
   //

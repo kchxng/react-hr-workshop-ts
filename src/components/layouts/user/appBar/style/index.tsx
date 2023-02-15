@@ -1,7 +1,7 @@
 import { styled, Typography, Box, List, IconButton } from "@mui/material";
 import { textPopUpTop } from "../../../../../styles/animation";
 // import { Box } from "@mui/system";
-import { Colors, DrawerWidth } from "../../../../../styles/theme";
+import { Colors, DrawerWidth } from "../../../../../styles/theme/UserTheme";
 
 // Appbar Container
 type appbarContainerProps = {

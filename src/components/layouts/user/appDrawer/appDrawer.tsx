@@ -10,7 +10,7 @@ import { styled } from "@mui/material/styles";
 import { lighten } from "polished";
 import React, { useState } from "react";
 import { useUIContext } from "../../../../styles/contextUI";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 import { DrawerCloseButton } from "../appBar/style";
 
 const MiddleDivider = styled((props: any) => (

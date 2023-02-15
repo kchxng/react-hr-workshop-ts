@@ -1,5 +1,5 @@
 import { Box, Button, styled, Typography } from "@mui/material";
-import theme, { Colors } from "../../../../styles/theme";
+import theme, { Colors } from "../../../../styles/theme/UserTheme";
 export { default } from "./BannerPage";
 type Props = {
   theme: any;

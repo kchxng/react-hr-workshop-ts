@@ -1,4 +1,4 @@
-import { Colors } from "./../../../../styles/theme/index";
+import { Colors } from "../../../../styles/theme/UserTheme";
 import { styled, TextField, Typography } from "@mui/material";
 
 export { default } from "./FooterPage";

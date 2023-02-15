@@ -1,7 +1,7 @@
 import { Add, Remove } from "@mui/icons-material";
 import { Box, IconButton, Typography } from "@mui/material";
 import React, { useState } from "react";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 
 // Claimp
 export const clamp = (min: number, max: number) => (v: number) =>

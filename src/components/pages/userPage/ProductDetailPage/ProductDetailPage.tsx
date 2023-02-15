@@ -20,7 +20,7 @@ import {
 import { Box } from "@mui/system";
 import React, { useState } from "react";
 import { Product } from "../../../../models/Product.model";
-import { Colors } from "../../../../styles/theme";
+import { Colors } from "../../../../styles/theme/UserTheme";
 import {
   ProductImage,
   ProductItem,

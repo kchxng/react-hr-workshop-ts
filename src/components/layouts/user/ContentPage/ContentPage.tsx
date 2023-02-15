@@ -3,7 +3,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import FooterPage from "../FooterPage";
 import HeaderPage from "../HeaderPage";
-import theme from "../../../../styles/theme";
+import theme from "../../../../styles/theme/UserTheme";
 import BannerPage from "../BannerPage";
 import PromotionsPage from "../../../pages/userPage/PromotionsPage";
 import AppDrawer from "../appDrawer/appDrawer";

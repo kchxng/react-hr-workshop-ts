@@ -53,6 +53,9 @@ react-redux redux @reduxjs/toolkit react-redux @types/redux-logger redux-logger
 9-----JWT------
 yarn add @types/jsonwebtoken jsonwebtoken
 
+10.-------Stock Chart-------
+yarn add react-apexcharts apexcharts
+
 ----------------------------------------------
 
 npm i @mui/x-data-grid chart.js react-chartjs-2 
