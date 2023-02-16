@@ -25,6 +25,7 @@ import {
   useTheme,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAppState } from "../../../../styles/contextUI/AdminAppState";
 import { ColorsAdmin } from "../../../../styles/theme/AdminTheme";
 import { drawerWidth } from "../AdminAppDrawer/AdminAppDrawer";
@@ -107,6 +108,8 @@ type Props = { switchColorMode: any };
 export default function AdminAppbar({ switchColorMode }: Props) {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("sm"));
+
+  const navigate = useNavigate();
 
   //   const [openDrawer, setOpenDrawer] = useState<boolean>(false);
   const [anchorEl, setAnchorEl] = useState<any>(null);
@@ -217,7 +220,7 @@ export default function AdminAppbar({ switchColorMode }: Props) {
           Profile
         </MenuItem>
 
-        <MenuItem onClick={() => console.log("close account")}>Logout</MenuItem>
+        <MenuItem onClick={() => navigate("/")}>Logout</MenuItem>
       </Menu>
     </Box>
   );

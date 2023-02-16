@@ -9,7 +9,7 @@ const TickElment = styled("div")(({ x }: TEProps) => ({
   transform: `translate(${x}px)`,
 }));
 
-const speed = 10;
+const speed = 5;
 export default function TickerElement(props: any) {
   const childRef: any = useRef();
   const { children, parentRect } = props;

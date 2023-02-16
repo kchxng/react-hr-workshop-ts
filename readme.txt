@@ -54,7 +54,12 @@ react-redux redux @reduxjs/toolkit react-redux @types/redux-logger redux-logger
 yarn add @types/jsonwebtoken jsonwebtoken
 
 10.-------Stock Chart-------
+https://apexcharts.com/docs/update-charts-from-json-api-ajax/#
+https://apexcharts.com/javascript-chart-demos/candlestick-charts/
 yarn add react-apexcharts apexcharts
+
+11.--------Marquee Tag in react-------
+yarn add react-fast-marquee
 
 ----------------------------------------------
 

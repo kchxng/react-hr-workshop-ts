@@ -19,14 +19,37 @@ export const AdminApexChartOptions: any = (data: any, bg: any, theme: any) => ({
         show: false,
       },
     },
+    // fill: { colors: ["#F44336", "#E91E63", "#9C27B0"] },
     grid: {
       show: false,
     },
+    // markers: {
+    //   colors: ["#F44336", "#E91E63", "#9C27B0"],
+    // },
+    fill: {
+      type: "gradient",
+      gradient: {
+        gradientToColors: ["#F55555", "#6078ea", "#6094ea"],
+      },
+    },
+    tooltip: {
+      theme: theme === "dark" ? "dark" : "light",
+      // enabled: false,
+    },
+    // theme: {
+    //   monochrome: {
+    //     enabled: true,
+    //     color: "#255aee",
+    //     shadeTo: "light",
+    //     shadeIntensity: 0.65,
+    //   },
+    // },
     stroke: {
       curve: "smooth",
       colors: theme === "dark" ? bg : "#fff",
     },
     xaxis: {
+      // fillColor: "#F44336",
       labels: {
         show: false,
       },

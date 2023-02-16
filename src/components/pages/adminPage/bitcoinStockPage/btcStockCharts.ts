@@ -31,6 +31,10 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
       curve: "smooth",
       colors: theme === "dark" ? bg : "#fff",
     },
+    tooltip: {
+      theme: theme === "dark" ? "dark" : "light",
+      // enabled: false,
+    },
     xaxis: {
       labels: {
         show: true,
@@ -70,7 +74,7 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
     },
     series: [
       {
-        name: "series-1",
+        name: "series-Btc1",
         data: data,
       },
     ],
