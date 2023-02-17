@@ -4,7 +4,10 @@ import { darken, lighten } from "polished";
 export const DrawerWidth = 250;
 // For public or user
 export const Colors = {
-  primary: "#5f2c3e",
+  // primary: "#5f2c3e",
+  /////LSX Color ////////
+  primary: "#DC143C",
+  /////end lsx color////
   secondary: "#d1adcc",
   success: "#4CAF50",
   info: "#00a2ff",
@@ -29,7 +32,6 @@ export const Colors = {
   white: "#fff",
   black: "#000",
 };
-
 
 type MyShopButtonProps = {
   MyShopButton: {

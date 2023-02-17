@@ -1,6 +1,9 @@
 // for Dashboard
 export const ColorsAdmin = {
-  primary: "#aa00ff",
+  // primary: "#aa00ff",
+  /////LSX Color ////////
+  primary: "#DC143C",
+  /////end lsx color////
   primary_light: "#e254ff",
   primary_dark: "#7200ca",
   secondary: "#448aff",
@@ -18,6 +21,10 @@ export const ColorsAdmin = {
   shaft: "#333",
   dove_gray: "#d5d5d5",
   body_bg: "#f3f6f9",
+  /////////////////
+  ////LSX Color////
+  ////////////////
+  red_lsx: "#DC143C",
   ///////////////
   // Solid Color
   ///////////////

@@ -147,7 +147,7 @@ export default function AdminAppbar({ switchColorMode }: Props) {
               //   fontSize: `${matches ? "14px" : "18px"}`,
             }}
           >
-            HR System Dashboard
+            Laos Securities Exchange
           </Typography>
           <SearchBox sx={{ mr: 2 }}>
             <SearchIconWrapper>
@@ -212,7 +212,10 @@ export default function AdminAppbar({ switchColorMode }: Props) {
             <FormControlLabel
               control={<Switch checked={themeModeSwitch} />}
               label={themeModeSwitch ? "Dark" : "Light"}
-              onClick={() => setThemeModeSwitch((s) => !s)}
+              onClick={() => {
+                setThemeModeSwitch((s) => !s);
+                setAnchorEl(null);
+              }}
             />
           </FormGroup>
         </MenuItem>

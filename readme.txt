@@ -56,6 +56,7 @@ yarn add @types/jsonwebtoken jsonwebtoken
 10.-------Stock Chart-------
 https://apexcharts.com/docs/update-charts-from-json-api-ajax/#
 https://apexcharts.com/javascript-chart-demos/candlestick-charts/
+https://www.infragistics.com/products/ignite-ui-react/react/components/charts/types/stock-chart
 yarn add react-apexcharts apexcharts
 
 11.--------Marquee Tag in react-------

@@ -7,7 +7,7 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
     chart: {
       dropShadow: {
         enabled: true,
-        color: theme === "dark" ? bg : "#000",
+        color: theme === "dark" ? bg : "#00FF00",
         top: 4,
         left: 4,
         blur: 10,
@@ -16,7 +16,7 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
       parentHeightOffset: 0,
       height: 320,
       id: "basic-line",
-      background: theme === "dark" ? "#222831" : bg,
+      background: theme === "dark" ? "#222831" : "light",
       zoom: {
         enabled: false,
       },
@@ -29,7 +29,7 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
     },
     stroke: {
       curve: "smooth",
-      colors: theme === "dark" ? bg : "#fff",
+      colors: theme === "dark" ? bg : "#00FF00",
     },
     tooltip: {
       theme: theme === "dark" ? "dark" : "light",
@@ -40,17 +40,17 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
         show: true,
         style: {
           colors: [
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
-            "#fff",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
           ],
         },
       },
@@ -68,7 +68,13 @@ export const btcStockCharts: any = (data: any, bg: any, theme: any) => ({
       labels: {
         show: true,
         style: {
-          colors: ["#fff", "#fff", "#fff", "#fff", "#fff"],
+          colors: [
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+            theme === "dark" ? "#fff" : "#222831",
+          ],
         },
       },
     },
